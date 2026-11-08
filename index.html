@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ÉLAN — Sneakers pour prendre de l'élan</title>
+  <meta name="description" content="ÉLAN, sneakers dessinées à Paris : running, lifestyle, court, basket et trail. Livraison offerte dès 120 €, retours gratuits 30 jours.">
+  <meta name="theme-color" content="#0e0e0e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e0e0e'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='34' fill='%23d4ff3f'%3EÉ%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#app" data-action="skip">Aller au contenu</a>
+
+  <div class="announce" aria-label="Informations">
+    <div class="marquee">
+      <span>Livraison offerte dès 120 €</span><span>✦</span><span>Retours gratuits sous 30 jours</span><span>✦</span><span>Drop Nocturne 01 — 500 paires numérotées</span><span>✦</span><span>−10 % avec le code ELAN10</span><span>✦</span>
+      <span aria-hidden="true">Livraison offerte dès 120 €</span><span aria-hidden="true">✦</span><span aria-hidden="true">Retours gratuits sous 30 jours</span><span aria-hidden="true">✦</span><span aria-hidden="true">Drop Nocturne 01 — 500 paires numérotées</span><span aria-hidden="true">✦</span><span aria-hidden="true">−10 % avec le code ELAN10</span><span aria-hidden="true">✦</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <div class="header-left">
+        <button type="button" class="btn-icon burger" data-action="open-menu" aria-label="Ouvrir le menu">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+        <a class="logo" href="#/" aria-label="ÉLAN, accueil">ÉLAN<span class="logo-dot"></span></a>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#/boutique">Boutique</a>
+        <a href="#/boutique?cat=running">Running</a>
+        <a href="#/boutique?cat=lifestyle">Lifestyle</a>
+        <a href="#/boutique?cat=court">Court</a>
+        <a href="#/boutique?cat=basket">Basket</a>
+        <a href="#/boutique?cat=trail">Trail</a>
+        <a href="#/produit/nocturne-01" class="nav-drop"><span class="live"></span>Drop</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="secure-flag"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Paiement sécurisé</span>
+        <button type="button" class="btn-icon" data-action="open-search" aria-label="Rechercher">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <a class="btn-icon wish-link" href="#/boutique?fav=1" aria-label="Favoris">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>
+          <span class="dot-count" data-wish-count hidden>0</span>
+        </a>
+        <button type="button" class="cart-btn" data-action="open-cart" aria-label="Ouvrir le panier">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-label">Panier</span>
+          <span class="count" data-cart-count hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo-light" href="#/">ÉLAN<span class="logo-dot"></span></a>
+        <p>Sneakers dessinées à Paris depuis 2019. Conçues pour bouger, faites pour durer, fabriquées en Europe avec 61 % de matières recyclées.</p>
+        <p class="footer-social"><a href="#/">Instagram</a><a href="#/">TikTok</a><a href="#/">Strava Club</a></p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="#/boutique?sort=nouveautes">Nouveautés</a></li>
+          <li><a href="#/boutique?cat=running">Running</a></li>
+          <li><a href="#/boutique?cat=lifestyle">Lifestyle</a></li>
+          <li><a href="#/boutique?cat=court">Court</a></li>
+          <li><a href="#/boutique?cat=trail">Trail</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Aide</h4>
+        <ul>
+          <li><a href="#/panier">Mon panier</a></li>
+          <li><a href="#/boutique">Guide des tailles</a></li>
+          <li><a href="#/boutique">Livraison & retours</a></li>
+          <li><a href="#/boutique">Nous contacter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Maison</h4>
+        <ul>
+          <li><a href="#/">Notre histoire</a></li>
+          <li><a href="#/">Engagements</a></li>
+          <li><a href="#/">Club ÉLAN</a></li>
+          <li><a href="#/">Carrières</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-word" aria-hidden="true">ÉLAN</p>
+    <div class="footer-legal">
+      <span>© 2026 ÉLAN Paris — Boutique de démonstration. Aucun paiement réel.</span>
+      <span class="cards-accepted"><span>CB</span><span>VISA</span><span>Mastercard</span><span>AMEX</span></span>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Panier" inert>
+    <div class="drawer-head">
+      <h2>Ton panier <span data-drawer-count></span></h2>
+      <button type="button" class="btn-icon drawer-close" data-action="close" aria-label="Fermer le panier">
+        <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="ship-progress"></div>
+    <div class="drawer-body"></div>
+    <div class="drawer-foot"></div>
+  </aside>
+
+  <div class="search" id="search" role="dialog" aria-label="Recherche" inert>
+    <form class="search-input" role="search">
+      <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="sr-only" for="search-q">Rechercher un modèle</label>
+      <input id="search-q" type="search" placeholder="Rechercher un modèle, une couleur…" autocomplete="off">
+      <button type="button" class="btn-icon" data-action="close" aria-label="Fermer la recherche">
+        <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </form>
+    <p class="search-label eyebrow"></p>
+    <div class="search-results"></div>
+  </div>
+
+  <div class="menu" id="menu" role="dialog" aria-label="Menu" inert>
+    <div class="menu-head">
+      <a class="logo logo-light" href="#/">ÉLAN<span class="logo-dot"></span></a>
+      <button type="button" class="btn-icon" data-action="close" aria-label="Fermer le menu">
+        <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="menu-nav" aria-label="Menu mobile">
+      <a href="#/boutique">Boutique</a>
+      <a href="#/boutique?cat=running">Running</a>
+      <a href="#/boutique?cat=lifestyle">Lifestyle</a>
+      <a href="#/boutique?cat=court">Court</a>
+      <a href="#/boutique?cat=basket">Basket</a>
+      <a href="#/boutique?cat=trail">Trail</a>
+      <a href="#/produit/nocturne-01">Drop <em>Nocturne</em></a>
+    </nav>
+    <p class="menu-foot">Livraison offerte dès 120 € · Retours 30 j</p>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span>Voir</span></div>
+</body>
+</html>
